@@ -35,7 +35,6 @@
     (list "g++" (list "-Wall" "-Wextra" "-fsyntax-only" local-file))))
 
 ;;エラーメッセージをミニバッファで表示させる
-(global-set-key "\C-e" 'flymake-goto-next-error)
 (global-set-key "\M-e" 'flymake-goto-prev-error)
 
 
